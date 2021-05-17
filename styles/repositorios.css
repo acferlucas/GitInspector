@@ -1,0 +1,182 @@
+body {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+header {
+  height: 5rem;
+  width: 100%;
+  background-color: #F0F0F5;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3.5rem;
+  padding-left: 1.5rem;
+  
+}
+
+header > div {
+  height: 3.125rem;
+  display: flex;
+  width: 11.5rem;
+  margin-left: 8.125rem;
+  
+}
+header div#text-container p{
+  font-weight:bold;
+  font-size:16px;
+  margin-left: 1rem;
+  
+}
+
+header div#text-container p:nth-child(2){
+  color: var(--green);
+}
+
+
+header h1 {
+  font-size:24px
+}
+header >  a {
+  width: 3.125rem;
+}
+
+body > div {
+  margin-top: 3.875rem;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+body div#input-area {
+  display: flex;
+  width: 21.5rem;
+  justify-content:space-between;
+}
+
+
+
+body > div input {
+  
+  height: 2.5rem;
+  width: 18.125rem;
+  border-radius: 8px;
+  background-color: #CECED8;
+  border: none;
+  padding: 1rem 1rem;
+  font-size:18px;
+}
+
+#input-area button{
+  
+  border: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius:5px;
+}
+main {
+  
+  margin-top: 3.875rem;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+}
+
+ul {
+  width: 70rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 14rem;
+  row-gap:4.5rem;
+}
+li {
+  display:flex;
+  width: 28rem;
+  height: 7.875rem;
+  background-color: #F0F0F5;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1.625rem;
+  border-radius: 15px;
+  justify-content:space-between;
+}
+
+#li-empty {
+  background-color: #CECED8;
+  display: flex;
+  justify-content:center;
+  
+}
+
+#li-empty svg {
+  height:6.75rem ;
+  width: 6.75rem;
+  color: #F0F0F5;
+}
+
+li > div:nth-child(1) {
+  
+  text-align: center;
+  font-weight:bold;
+  font-size:12px;
+  width:  5.5rem;
+}
+li > div:nth-child(1) img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.icon-area{
+  display: flex;
+  width: 2.5rem;
+  justify-content:space-between;
+}
+
+#text-containerMain h2 + p {
+  margin-top:0.625rem;
+}
+#text-containerMain {
+  width: 15.625rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#icons-container {
+  height: 6.875rem;
+  width:  2.625rem;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+header div img {
+  
+  border-radius: 16.25rem;
+}
+
+li img {
+  border-radius: 16.25rem;
+}
+
+@media(max-width: 1080px) {
+  
+  ul {
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+  header h1 {
+    font-size:14px
+  }
+  #input-area button{
+    
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius:5px;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+body div {
+  padding-top: 1.5rem;
+}
+
+button {
+  margin-top: 8rem;
+  background-color: var(--green);
+  height: 5rem;
+  width: 31rem;
+  font-size: 2.25rem;
+  color: #fff;
+  border-radius: 0.625rem;
+  border: none;
+}
+
+button:hover {
+  background-color: #00974E;
+  transition: 0.5s;
+}
