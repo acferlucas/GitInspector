@@ -22,3 +22,6 @@ O Projeto consiste num sistema de para visualização de Repositorios e Usuarios
 - HTML
 - CSS
 - Javascript
+
+## Back end
+- Consumindo API github.
